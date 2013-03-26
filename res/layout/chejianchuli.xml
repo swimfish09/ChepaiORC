@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/topll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/but_blue"
+            android:text="全部"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/but_blue"
+            android:text="已上报"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/but_blue"
+            android:text="处理结果"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/but_blue"
+            android:text="新增事件"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/zhi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topll"
+        android:layout_margin="20dp"
+        android:background="@drawable/zhi"
+        android:orientation="vertical" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="70dp"
+            android:background="#00000000"
+            android:gravity="top"
+            android:lineSpacingExtra="7dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:text="发现套牌车，车主韦小宝。\n
+已经联系中南海，老胡同志说不认识他。"
+            android:textSize="14dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="24dp"
+            android:background="#00000000"
+            android:gravity="top"
+            android:lineSpacingExtra="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:text="请指示治安处罚还是交通处罚？"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|right"
+        android:layout_alignRight="@+id/zhi"
+        android:layout_alignBottom="@+id/zhi"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/but_yuan"
+        android:text="提交"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

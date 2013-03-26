@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_colormagic"
+        android:title="颜色分离"/>
+    <item android:id="@+id/menu_findchepai"
+        android:title="找车牌"/>
+</menu>
